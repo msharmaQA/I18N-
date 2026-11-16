@@ -45,7 +45,53 @@
       "body": {
         "mode": "none"
       },
-      "assertions": [],
+      "assertions": [
+        {
+          "id": "assert-d262929b-e4b0-459a-9096-53b12ff68b7c",
+          "enabled": true,
+          "kind": "smartAssertion",
+          "source": "body",
+          "rows": [
+            {
+              "path": "$['result']",
+              "label": "result",
+              "operator": "equals",
+              "expected": "true",
+              "expectedType": "boolean",
+              "caseSensitive": true,
+              "enabled": true
+            },
+            {
+              "path": "$['locale']",
+              "label": "locale",
+              "operator": "equals",
+              "expected": "de",
+              "expectedType": "string",
+              "caseSensitive": true,
+              "enabled": true
+            },
+            {
+              "path": "$['actualString']",
+              "label": "actualString",
+              "operator": "equals",
+              "expected": "123.456.789,987",
+              "expectedType": "string",
+              "caseSensitive": true,
+              "enabled": true
+            },
+            {
+              "path": "$['expectedString']",
+              "label": "expectedString",
+              "operator": "equals",
+              "expected": "123.456.789,987",
+              "expectedType": "string",
+              "caseSensitive": true,
+              "enabled": true
+            }
+          ],
+          "sample": "{\"result\":true,\"locale\":\"de\",\"actualString\":\"123.456.789,987\",\"expectedString\":\"123.456.789,987\"}"
+        }
+      ],
       "propertyTransfers": []
     }
   ]
