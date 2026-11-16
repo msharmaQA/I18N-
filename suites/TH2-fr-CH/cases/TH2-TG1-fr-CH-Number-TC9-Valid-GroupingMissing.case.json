@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "1adc9da1-9f63-4f21-bfb1-64ade56df8cd",
+  "name": "TH2_TG1_fr-CH_Number_TC9_Valid_GroupingMissing",
+  "properties": [],
+  "tags": [],
+  "steps": [
+    {
+      "id": "step-44",
+      "name": "TH2_TG1_fr-CH_Number_TC9_Valid_GroupingMissing",
+      "description": "Imported from JMeter. Disabled flags intentionally ignored; _NA scenarios excluded. Original assertion text is reference only, not an executable Postman assertion.",
+      "enabled": true,
+      "continueOnFailure": false,
+      "properties": [],
+      "type": "REST",
+      "method": "GET",
+      "url": "https://psi18n.esri.com/i18n/validateNumber",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "query": [
+        {
+          "key": "actualString",
+          "value": "123 456 789,987",
+          "enabled": true
+        },
+        {
+          "key": "locale",
+          "value": "fr-CH",
+          "enabled": true
+        }
+      ],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "mode": "none"
+      },
+      "assertions": [],
+      "propertyTransfers": []
+    }
+  ]
+}

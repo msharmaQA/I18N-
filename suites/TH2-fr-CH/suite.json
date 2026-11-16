@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fef1ceac-3cf2-499d-ab57-24ca4b89c6fb",
+  "name": "TH2_fr-CH",
+  "properties": [],
+  "caseOrder": [
+    "ec87cc05-1bf0-4e4a-9632-0ba6e8cb057a",
+    "8e7c164b-519b-40da-bddd-cfb27b3e5f80",
+    "e4a03b52-3610-4020-b2e8-3d45ef658ce8",
+    "4b26e015-9741-468e-801b-69002138be32",
+    "63ef41e0-ac78-4207-b49f-a1e981a8992d",
+    "85409159-e171-4510-ad99-b38daf911d55",
+    "59a212f1-527a-4e31-accc-adc7af5a1337",
+    "1adc9da1-9f63-4f21-bfb1-64ade56df8cd",
+    "ede77a70-8f6f-46c6-96bc-fb8543411ada",
+    "a01a3119-56e5-45cf-b978-7c12f3f37936",
+    "e57c1964-a66b-4925-95ee-8b3d8e157a17",
+    "807db450-f733-432b-91ad-342e0985230e",
+    "2ccf2826-9ae3-484c-a301-48cd455a97a2",
+    "5c4885c7-36df-49a7-810d-d577e825d82c",
+    "c8069063-e947-4cfb-bab0-a43518379456",
+    "51ae6b7d-d563-4985-8a2e-4c6f1e5fbb4c",
+    "370e5fc4-80e0-43d2-bebb-7ce7b32ca462",
+    "a5ea4e11-b26b-4167-87d9-e2d1d7e1b570"
+  ],
+  "tags": []
+}

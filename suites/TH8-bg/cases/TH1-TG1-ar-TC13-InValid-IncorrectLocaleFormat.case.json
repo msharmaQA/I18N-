@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6142034f-c3d3-4a4c-8c30-d6f5304ae13f",
+  "name": "TH1_TG1_ar_TC13_InValid_IncorrectLocaleFormat",
+  "properties": [],
+  "tags": [],
+  "steps": [
+    {
+      "id": "step-197",
+      "name": "TH1_TG1_ar_TC13_InValid_IncorrectLocaleFormat",
+      "description": "Imported from JMeter. Disabled flags intentionally ignored; _NA scenarios excluded. Original assertion text is reference only, not an executable Postman assertion.",
+      "enabled": true,
+      "continueOnFailure": false,
+      "properties": [],
+      "type": "REST",
+      "method": "GET",
+      "url": "https://psi18n.esri.com/i18n/validateNumber",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "query": [
+        {
+          "key": "actualString",
+          "value": "1.234.567,89",
+          "enabled": true
+        },
+        {
+          "key": "locale",
+          "value": "ar_",
+          "enabled": true
+        },
+        {
+          "key": "useGrouping",
+          "value": "true",
+          "enabled": true
+        }
+      ],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "mode": "none"
+      },
+      "assertions": [],
+      "propertyTransfers": []
+    }
+  ]
+}

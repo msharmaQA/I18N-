@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c504658e-7924-4efc-91d6-1903f4da3ae8",
+  "name": "TH1_TG1_ar_Number_TC3_Valid_Till8DigitafterDecimal",
+  "properties": [],
+  "tags": [],
+  "steps": [
+    {
+      "id": "step-621",
+      "name": "TH1_TG1_ar_Number_TC3_Valid_Till8DigitafterDecimal",
+      "description": "Imported from JMeter. Disabled flags intentionally ignored; _NA scenarios excluded. Original assertion text is reference only, not an executable Postman assertion.",
+      "enabled": true,
+      "continueOnFailure": false,
+      "properties": [],
+      "type": "REST",
+      "method": "GET",
+      "url": "https://psi18n.esri.com/i18n/validateNumber",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "query": [
+        {
+          "key": "actualString",
+          "value": "1,23456789",
+          "enabled": true
+        },
+        {
+          "key": "locale",
+          "value": "en",
+          "enabled": true
+        },
+        {
+          "key": "useGrouping",
+          "value": "true",
+          "enabled": true
+        }
+      ],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "mode": "none"
+      },
+      "assertions": [],
+      "propertyTransfers": []
+    }
+  ]
+}

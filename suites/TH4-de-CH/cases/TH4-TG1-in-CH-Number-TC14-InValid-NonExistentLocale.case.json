@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "fe2d94a6-e03c-4846-8e0c-a807f648b0ca",
+  "name": "TH4_TG1_in-CH_Number_TC14_InValid_NonExistentLocale",
+  "properties": [],
+  "tags": [],
+  "steps": [
+    {
+      "id": "step-86",
+      "name": "TH4_TG1_in-CH_Number_TC14_InValid_NonExistentLocale",
+      "description": "Imported from JMeter. Disabled flags intentionally ignored; _NA scenarios excluded. Original assertion text is reference only, not an executable Postman assertion.",
+      "enabled": true,
+      "continueOnFailure": false,
+      "properties": [],
+      "type": "REST",
+      "method": "GET",
+      "url": "https://psi18n.esri.com/i18n/validateNumber",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "query": [
+        {
+          "key": "actualString",
+          "value": "actualString=123’456’789.987",
+          "enabled": true
+        },
+        {
+          "key": "locale",
+          "value": "in-CH",
+          "enabled": true
+        },
+        {
+          "key": "useGrouping",
+          "value": "true",
+          "enabled": true
+        }
+      ],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "mode": "none"
+      },
+      "assertions": [],
+      "propertyTransfers": []
+    }
+  ]
+}

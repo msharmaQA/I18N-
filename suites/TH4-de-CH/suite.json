@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "d160a52b-efc3-48f2-91b4-52f3e9461d69",
+  "name": "TH4_de-CH",
+  "properties": [],
+  "caseOrder": [
+    "e0b19e87-4c51-4dc7-aea5-00a1dde3b51c",
+    "6d606996-bbdd-4fe5-b3f8-7f36c2b81883",
+    "7e8c3a3a-3302-4a45-9419-e16ecb00b6bb",
+    "7d8e3fa0-db52-4293-bee2-88c0dbf051c3",
+    "9673b10d-b780-436b-bb41-08a8d901c472",
+    "3ccb7c95-12f2-4053-8a90-a725776fbf7d",
+    "da511d22-5ad6-4925-a51e-cb724a67cc20",
+    "ff81e615-0ac5-4265-a1ee-a030ff22205c",
+    "0db3e57e-b36c-4acb-9024-72a751be52c2",
+    "18589fb9-1cde-461c-b3e3-9488b5516c5e",
+    "7eeeb662-5c2d-4ebb-9630-29b6c87b3f06",
+    "6e550bca-2498-4b48-adef-823d362366bc",
+    "375f3ca9-40bb-4637-9159-b5c089f197ee",
+    "fe2d94a6-e03c-4846-8e0c-a807f648b0ca",
+    "1fad4d29-c284-4bb0-ad3a-d1de79eb232f",
+    "ca2c5a10-8a63-4516-801e-e5ab4912f9d5",
+    "123314db-6fad-462d-8cc1-0754ad01096d",
+    "2ba06a56-bb15-4857-b587-858a51a6d6e9"
+  ],
+  "tags": []
+}

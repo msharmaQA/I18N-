@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ce5d6d15-96ea-4022-af8b-cea361d3bf0c",
+  "name": "TH1_TG1_ar_Number_TC10_InValid_IncorrectGrouping",
+  "properties": [],
+  "tags": [],
+  "steps": [
+    {
+      "id": "step-627",
+      "name": "TH1_TG1_ar_Number_TC10_InValid_IncorrectGrouping",
+      "description": "Imported from JMeter. Disabled flags intentionally ignored; _NA scenarios excluded. Original assertion text is reference only, not an executable Postman assertion.",
+      "enabled": true,
+      "continueOnFailure": false,
+      "properties": [],
+      "type": "REST",
+      "method": "GET",
+      "url": "https://psi18n.esri.com/i18n/validateNumber",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "query": [
+        {
+          "key": "actualString",
+          "value": "1234567,89",
+          "enabled": true
+        },
+        {
+          "key": "locale",
+          "value": "en",
+          "enabled": true
+        },
+        {
+          "key": "useGrouping",
+          "value": "true",
+          "enabled": true
+        }
+      ],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "mode": "none"
+      },
+      "assertions": [],
+      "propertyTransfers": []
+    }
+  ]
+}

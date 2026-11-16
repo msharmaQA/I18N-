@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "a5656c73-6b7d-4e28-83ed-495b8467a674",
+  "name": "TH3_TG1_en-IN_Number_TC12_Invalid_DuplicateArgument",
+  "properties": [],
+  "tags": [],
+  "steps": [
+    {
+      "id": "step-64",
+      "name": "TH3_TG1_en-IN_Number_TC12_Invalid_DuplicateArgument",
+      "description": "Imported from JMeter. Disabled flags intentionally ignored; _NA scenarios excluded. Original assertion text is reference only, not an executable Postman assertion.",
+      "enabled": true,
+      "continueOnFailure": false,
+      "properties": [],
+      "type": "REST",
+      "method": "GET",
+      "url": "https://psi18n.esri.com/i18n/validateNumber",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "query": [
+        {
+          "key": "actualString",
+          "value": "12,34,56,789.987",
+          "enabled": true
+        },
+        {
+          "key": "locale",
+          "value": "en-IN",
+          "enabled": true
+        },
+        {
+          "key": "useGrouping",
+          "value": "true",
+          "enabled": true
+        },
+        {
+          "key": "actualString",
+          "value": "12,34,56,789.987",
+          "enabled": true
+        }
+      ],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "mode": "none"
+      },
+      "assertions": [],
+      "propertyTransfers": []
+    }
+  ]
+}
